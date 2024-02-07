@@ -1,0 +1,11 @@
+@ExImovel_HostAddress = http://localhost:5094
+
+GET {{ExImovel_HostAddress}}/imovel/
+Accept: application/json
+
+###
+
+POST {{ExImovel_HostAddress}}/imovel/
+Accept: application/json
+
+###
